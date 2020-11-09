@@ -1,7 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Priyanka Thakan</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navbar -->
+    <div class="Navbar">
+        <a class="active" href="#Home"> Home </a>
+        <a href="#About"> About </a>
+        <a href="#Github"> Github </a>
+        <a href="#Contact"> Contact </a>
+    </div>
+
+    <!-- Home -->
+        <br> <!-- space between navbar and first heading -->
+        <br>
+    <!-- Video -->
+    <div id="#Home">
+        <video controls autoplay loop muted id="Typing_Video" >
+            <source src="StyleSheet/Video/Typing.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!-- Video text -->
+    <div class="Video_Text">
+        <h1> Priyanka's Portfolio </h1>
+        <p>
+            <strong>
+                <center>
+                <q>
+                    The computer programmer is a creator of universes for which he alone is the lawgiver. <br>
+                    No playwright, no stage director, no emperor, however powerful, hs ever exercised such absolute
+                    authority to arrange a stage or <br> field of battle and to command such unswervingly dutiful actors
+                    or troops.
+                </q>
+                <br> - Joseph Weizenbaum <br>
+                My name is Priyanka Thakan. Welcome to my portfolio website. On it, I will tell you about my 
+                background and experience. <br> <br> Thank you for stopping by and enjoy!
+                </center>
+            </strong>
+        </p>
+    </div>
+
+    <!-- About section -->
+    <div class="Row" id="About">
+        <div class="Column_2"> <!-- Left Column -->
+            <img src="StyleSheet/Images/Development.jpg" alt="Laptop">
+        </div>
+        <div class="Column_1"> <!-- Right Column -->
+            <h1>About</h1>
+            <p>I am a software developer who loves coding! As a mother of three, I enjoy time with my family and the outdoors. <br><br> I am a graduate of <a href="http://www.learningcodinganywhere.com" target="_blank">
+            The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS JavaScript, SQL, C#, Python and more. <br><br> I am a full-stack developer and would love to 
+            work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+            </p>
+        </div>
+    </div>
+
+    <!-- Github section -->
+    <div id="#Github" class="Row">
+        <div class="Column_1">
+            <h1> Github </h1>
+            <p>
+                This is the Github paragraph. <br>
+                <center><a href="https://github.com/Priyankawu" target="_blank">Priyanka Thakan Github</a>
+                </center>
+            </p>
+        </div>
+        <div class="Column_2">
+            <a href="https://github.com/Priyankawu" target="_blank">
+            <img src="StyleSheet/Images/GitHub.png" alt="Github">
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+   
+    <div id="#Contact" class="Row">
+        <div class="Column_2">
+            <img src="StyleSheet/Images/Contact.jpg" alt="Contact_Image">
+        </div>
+        <div class="Column_1">
+            <h2>Contact</h2>
+            <form action="" method="get"> <!-- specifies where to send the form data and how -->
+                    <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here"> <!-- input makes a box -->
+                    <label>Email:</label>
+                    <input type="text" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                    <input type="text" placeholder="Please write your message here">
+                    <input type="submit" value="Submit"> <!-- type submit makes a box with submit in it-->
+                    
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+   
+    <footer>
+        <p>
+            <center>
+                &copy My Portfolio Inc., <a href="my_portfolio.com/"> Priyanka Thakan Portfolio </a>
+            <br>
+            </center>
+        </p>
+    </footer>
+
 </body>
 </html>
