@@ -132,8 +132,8 @@ Navbar a.hover {
     }
 }*/
 
-.Video_Text {
-    background: rgba(0,0,0,0.5); /*semi-transparent background for the text to sit over*/
+.Ontop_Text {
+    background: rgba(0,0,0,0.10); /*semi-transparent background for the text to sit over*/
     color: white;
     width: 100%;
     padding-top: 1vh;
