@@ -141,7 +141,7 @@ Navbar a.hover {
 
 /************************************ Slideshow Styling ***********************/
 img {
-    filter: grayscale(75%);/*this rids pictures of 75% of their color */
+    filter: grayscale(75%); /*this rids pictures of 75% of their color */
     border-radius: 8px;
     max-width: 100%;
     height: 100%;
