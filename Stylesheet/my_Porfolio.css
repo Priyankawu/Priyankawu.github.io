@@ -417,9 +417,20 @@ button:hover, .form-container .btn:hover {
 }
 /************************ Footer element *************************************/
 footer {
-    background-color: white;
+    background-color: gray;
     padding: 2%;
+    
 }
+
+.bg_green {
+    background-color: #7cfc00;
+}
+
+.bg_blue {
+    background-color: #87CEEB;
+}
+
+
 
 
 
